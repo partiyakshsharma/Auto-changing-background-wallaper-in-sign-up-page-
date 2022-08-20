@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- Place your kit's code here -->
+    <script src="https://kit.fontawesome.com/7c28598386.js" crossorigin="anonymous"></script>
+    <title>login </title>
+
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100vh;
+            font-family: sans-serif;
+        }
+
+        .Section_top {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: relative;
+            background-image: url(1.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* text-align: center; */
+            justify-content: center;
+            animation: change 40s infinite ease-in-out;
+        }
+
+
+        @keyframes change {
+            0% {
+                background-image: url(1.jpg);
+            }
+
+            20% {
+                background-image: url(2.jpg);
+            }
+
+            40% {
+                background-image: url(3.jpg);
+            }
+
+            60% {
+                background-image: url(4.jpg);
+            }
+
+            80% {
+                background-image: url(5.jpg);
+            }
+
+            100% {
+                background-image: url(1.jpg);
+            }
+        }
+
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .container {
+            /* border: 12px solid rgb(226, 210, 210);   */
+            border-radius: 0%;
+            color: rgb(228, 226, 247);
+            position: absolute;
+            top: 12%;
+            left: 37%;
+            width: 25%;
+            
+        }
+        
+        .container h1 {
+            display: inline-block;
+            font-size: 40px;
+            border-bottom: 5px solid rgb(241, 234, 241);
+            margin-bottom: 1px;
+            padding: 10px 0;
+            width: 75%;
+            left: auto;
+        }
+
+        .box {
+            width: 100%;
+             /* border: 2px solid purple;  */
+            border-bottom: 2px solid rgb(226, 216, 226);
+            margin: 13px 0px;
+        }
+
+        .box input {
+            background: none;
+            width: 78%;
+            border: none;
+            outline: none;
+            color: rgb(212, 207, 207);
+            /* margin:13px 0px ;  */
+            font-size: 27px;
+            padding: -5px 0px;
+            margin: 4%;
+            font-family: cursive;
+            
+        }
+        
+        
+        h1 {
+            display: inline-block;
+        }
+        
+        
+        .bdn {
+            color: rgb(255 253 253);
+            cursor: pointer;
+            outline: none;
+            width: 61%;
+            margin: 21px 0;
+            padding: 17px;
+            border-radius: 27px;
+            /* border: 2px solid purple; */
+            font-size: 27px;
+            background: none;
+            font-family: cursive;
+        }
+
+        .bdn:hover {
+            /* opacity: 0.5; */
+            background-color: rgb(53, 53, 56);
+        }
+        
+        .box i {
+            width: 25px;
+            
+            text-align: center;
+            
+        }
+        
+        ::placeholder {
+            color: white;
+        
+        }
+
+      
+        </style>
+ 
+
+</head>
+
+<body>
+    <div class="Section_top">
+
+        <div class="container">
+            <img src="p.png" alt="" srcset="">
+            <h1><i>sign up</i></h1>
+
+
+            <div class="box">
+                	
+<i class="fa fa-envelope"></i>
+                <b> <input type="email" name="email" id="email" placeholder="enter your email"></b>
+
+
+            </div>
+
+            <div class="box">
+                	
+            <i class="fa fa-lock"></i>
+                <input type="password" name="password" id="password" placeholder="enter your password">
+          
+            </div>
+            <div class="def" >
+            <a href="">create a new account</a>    
+            </div>
+            <button class="bdn">submit</button>
+
+
+        </div>
+</body>
+
+</html>
